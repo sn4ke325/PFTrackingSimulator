@@ -1,0 +1,12 @@
+MAS tracking_simulator {
+
+	infrastructure: Centralised
+
+	environment: worldEnv
+
+	agents:
+		agent1 sample_agent;
+
+	aslSourcePath:
+		"src/asl";
+}
