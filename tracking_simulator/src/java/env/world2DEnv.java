@@ -1,12 +1,13 @@
+package env;
 // Environment code for project tracking_simulator
 
 import jason.asSyntax.*;
 import jason.environment.*;
 import java.util.logging.*;
 
-public class worldEnv extends Environment {
+public class world2DEnv extends Environment {
 
-    private Logger logger = Logger.getLogger("tracking_simulator."+worldEnv.class.getName());
+    private Logger logger = Logger.getLogger("tracking_simulator."+world2DEnv.class.getName());
 
     /** Called before the MAS execution with the args informed in .mas2j */
     @Override

@@ -2,10 +2,10 @@ MAS tracking_simulator {
 
 	infrastructure: Centralised
 
-	environment: worldEnv
+	environment: env.world2DEnv
 
 	agents:
-		agent1 sample_agent;
+	 ag0 robot_waypoint;
 
 	aslSourcePath:
 		"src/asl";
